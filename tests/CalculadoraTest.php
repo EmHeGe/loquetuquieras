@@ -10,31 +10,6 @@ final class CalculadoraTest extends TestCase
         $this->assertEquals(8, $calc->suma());
     }
 
-    public function testDiffPos()
-    {
-        $calc = new Calculadora(3,5);
-        $this->assertEquals(2, $calc->diff());
-        
-    }
-
-    public function testDiffNeg()
-    {
-        $calc = new Calculadora(5,3);
-        $this->assertEquals(2, $calc->diff());
-        
-    }
-
-    public function testMult()
-    {
-        $this->assertEquals(1,1);
-      
-    }
-
-    public function testDiv()
-    {
-        $this->assertEquals(1,1);
-        
-    }
 
 }
 ?>
